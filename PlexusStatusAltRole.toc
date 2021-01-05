@@ -18,8 +18,8 @@ libs\LibStub\LibStub.lua
 libs\LibGroupInSpecT-1.1\LibGroupInSpecT-1.1.lua
 #@end-no-lib-strip@
 
-PlexusStatusRoleLocale-koKR.lua
-PlexusStatusRoleLocale-ruRU.lua
-PlexusStatusRoleLocale-zhCN.lua
-PlexusStatusRoleLocale-zhTW.lua
-PlexusStatusRole.lua
+PlexusStatusAltRoleLocale-koKR.lua
+PlexusStatusAltRoleLocale-ruRU.lua
+PlexusStatusAltRoleLocale-zhCN.lua
+PlexusStatusAltRoleLocale-zhTW.lua
+PlexusStatusAltRole.lua
