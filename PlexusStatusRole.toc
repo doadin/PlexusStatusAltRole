@@ -1,0 +1,25 @@
+#@retail@
+## Interface: 90002
+#@end-retail@
+#@non-retail@
+## Interface: 11306
+#@end-non-retail@
+## Version: @project-version@
+## Title: PlexusStatusAltRole
+## Notes: Adds talent specialization role status to Plexus.
+## X-Credits:  Greltok
+## X-Embeds: LibGroupInSpecT-1.1, LibStub
+## Dependencies: Plexus
+## OptionalDeps: LibGroupInSpecT-1.1, LibStub
+## X-Curse-Project-ID: 433900
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\LibGroupInSpecT-1.1\LibGroupInSpecT-1.1.lua
+#@end-no-lib-strip@
+
+PlexusStatusRoleLocale-koKR.lua
+PlexusStatusRoleLocale-ruRU.lua
+PlexusStatusRoleLocale-zhCN.lua
+PlexusStatusRoleLocale-zhTW.lua
+PlexusStatusRole.lua
