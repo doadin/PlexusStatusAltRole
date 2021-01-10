@@ -15,7 +15,7 @@ local L = setmetatable(ns.L, {
 --{{{ Libraries
 local libGroupInSpecT = LibStub("LibGroupInSpecT-1.1")
 local PlexusRoster = Plexus:GetModule("PlexusRoster")
-local PlexusStatus = Plexus:GetModule("Plexustatus")
+local PlexusStatus = Plexus:GetModule("PlexusStatus")
 --}}}
 
 local PlexusStatusAltRole = Plexus:NewStatusModule("PlexusStatusAltRole")
