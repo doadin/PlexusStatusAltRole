@@ -343,7 +343,7 @@ function PlexusStatusAltRole:Reset()
 	end
 end
 
-function PlexusStatusAltRole:Grid_UnitJoined(event, guid, unit)
+function PlexusStatusAltRole:Grid_UnitJoined(_, guid, unit)
 	local info = libGroupInSpecT:GetCachedInfo(guid)
 	self:UpdateRole(guid, unit, info and info.spec_role_detailed)
 end
@@ -378,7 +378,7 @@ function PlexusStatusAltRole:UpdateAllRoles()
 	end
 end
 
-function PlexusStatusAltRole:GroupInSpecT_Update(event, guid, unit, info)
+function PlexusStatusAltRole:GroupInSpecT_Update(_, guid, unit, info)
 	self:UpdateRole(guid, unit, info and info.spec_role_detailed)
 end
 

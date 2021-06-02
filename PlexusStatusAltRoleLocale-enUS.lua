@@ -1,4 +1,4 @@
-do return end
+if GetLocale() ~= "enUS" then return end
 local _, ns = ...
 ns.L = {
 	["Specialization Role"] = true,
