@@ -12,6 +12,8 @@
 ## OptionalDeps: LibGroupInSpecT-1.1, LibStub
 ## X-Curse-Project-ID: 433900
 
+## IconTexture: Interface\AddOns\Plexus\Media\icon
+
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua
 Libs\LibGroupInSpecT-1.1\LibGroupInSpecT-1.1.lua
